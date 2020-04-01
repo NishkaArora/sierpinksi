@@ -9,6 +9,8 @@ function setup() {
   A = createVector(40,50);
   B = createVector(40,50);
   C = createVector(40,50);
+  x=-width;
+  y=-height;
   noStroke();
   //fill(255);
   ellipse(A.x, A.y,5,5);
@@ -21,9 +23,9 @@ function draw() {
   background(0);
 
   fill(255,0,0);
-  ellipse(A.x, A.y,5,5);
-  ellipse(B.x, B.y,5,5);
-  ellipse(C.x, C.y,5,5);
+  ellipse(A.x, A.y,2,2);
+  ellipse(B.x, B.y,2,2);
+  ellipse(C.x, C.y,2,2);
   
   fill(255);
   
@@ -60,7 +62,7 @@ function drawPoints() {
   for(let i =0; i<points.length;i++)
   {
     fill(255);
-    ellipse(points[i].x, points[i].y, 5, 5);
+    ellipse(points[i].x, points[i].y, 2, 2);
   }
 }
 
