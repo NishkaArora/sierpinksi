@@ -6,11 +6,10 @@ let x,y =0.0;
 
 function setup() {
   createCanvas(1000, 1000, WEBGL);
-  A = createVector(40,50);
-  B = createVector(40,50);
-  C = createVector(40,50);
-  x=-width;
-  y=-height;
+  A = createVector(-width/2,-height/2);
+  B = createVector(-width/2,-height/2);
+  C = createVector(-width/2,-height/2);
+  
   noStroke();
   //fill(255);
   ellipse(A.x, A.y,5,5);
