@@ -19,14 +19,14 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(255);
 
   fill(255,0,0);
   ellipse(A.x, A.y,2,2);
   ellipse(B.x, B.y,2,2);
   ellipse(C.x, C.y,2,2);
   
-  fill(255);
+  fill(0);
   
   let dice = floor(random(0, 3));
   
