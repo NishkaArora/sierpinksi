@@ -18,7 +18,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(255);
 
   fill(255,0,0);
   ellipse(A.x, A.y,5,5);
