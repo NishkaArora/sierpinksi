@@ -36,17 +36,20 @@ function draw() {
       {
         x = ((points[points.length-1].x+A.x)/4);
         y = ((points[points.length-1].y+A.y)/4);
+        delay(750);
       }
     else if(dice == 1)
       {
         x = ((points[points.length-1].x+B.x)/4);
-        y = ((points[points.length-1].y+B.y)/4);      
+        y = ((points[points.length-1].y+B.y)/4);
+        delay(750);
       }
       
     else if(dice == 2)
       {
         x = ((points[points.length-1].x+C.x)/4);
-        y = ((points[points.length-1].y+C.y)/4);      
+        y = ((points[points.length-1].y+C.y)/4);
+        delay(750);
       }
   }
   
